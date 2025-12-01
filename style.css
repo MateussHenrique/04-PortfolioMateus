@@ -246,3 +246,91 @@ nav ul li a:hover {
     font-size: 16px;
     color: #ffffff;
 }
+
+/* Definindo Projetos */
+ .projetos {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.projetos h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.projetos h2 span {
+    display: block;
+}
+
+.projetos-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projetos-imagem {
+    flex: 1;
+     margin-right: 50px;
+}
+
+.projetos-imagem img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 107, 157, 0.5);
+}
+
+.projetos-detalhes {
+    flex: 1;
+}
+
+.tags {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tag {
+    background-color: #ff6b9d;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.projetos-detalhes h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.data {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.projetos-detalhes p {
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.projetos-btn {
+    padding: 12px 24px;
+    background-color: transparent;
+    border: 2px solid #ff6b9d;
+    color: #ff6b9d;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    box-shadow: 0 0 10px rgba(255, 107, 157, 0.5);
+}
+
+.projetos-btn:hover {
+    background-color: #ff6b9d;
+    color: #ffffff;
+    box-shadow: 0 0 20px rgba(255, 107, 157, 0.8);
+}
