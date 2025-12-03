@@ -21,7 +21,7 @@ body {
 
 
 /* Definindo o Header */
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,8 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #ff6b9d;
+    margin: 0;
+    padding: 0 20px;
 }
 
 nav ul {
