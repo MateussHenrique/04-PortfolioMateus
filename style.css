@@ -16,6 +16,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    justify-content: space-between;
 }
 
 
@@ -26,7 +27,7 @@ body {
     align-items: center;
     padding: 20px 0;
     background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -41,6 +42,10 @@ body {
 nav ul {
     display: flex;
     list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -51,6 +56,9 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s;
+    align-items: center;
+    padding: 0 16px;       
+    height: 100%;
 }
 
 nav ul li a:hover {
