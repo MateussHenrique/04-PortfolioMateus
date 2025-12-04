@@ -121,13 +121,10 @@ nav ul li a:hover {
 
 .inicio-imagem {
     flex: 1;
-    margin-left: auto;
     display: flex;
     justify-content: right;
     align-items: center;
     position: relative;
-    margin-top: 0;
-    margin-right: 0;
 }
 
 .inicio-imagem img {
