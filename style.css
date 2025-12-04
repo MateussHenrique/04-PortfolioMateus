@@ -153,24 +153,34 @@ nav ul li a:hover {
     padding: 140px 0;
     min-height: 100vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1.5fr;
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.sobre-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .sobre h2 {
     text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
     font-size: 42px;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.1;
     color: #ff6b9d;
 }
 
-
-
 .sobre-imagem {
     text-align: center;
+    margin-top: 140px;
+    margin-left: 80px;
 }
 
 .sobre-imagem img {
@@ -182,7 +192,7 @@ nav ul li a:hover {
 }
 
 .linhatempo {
-    padding-left: 50px;
+    width: 500px;
 }
 
 .linhatempo-item {
