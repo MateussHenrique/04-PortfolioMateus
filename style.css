@@ -150,38 +150,38 @@ nav ul li a:hover {
 
 /* Definindo o Sobre */
 .sobre {
-    padding: 80px 0;
-    background-color: #0a0a0a;
+    padding: 140px 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    gap: 40px;
+    align-items: center;
 }
 
 .sobre h2 {
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
     color: #ff6b9d;
 }
 
-.sobre-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .sobre-imagem {
-    flex: 1;
     text-align: center;
 }
 
 .sobre-imagem img {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+    box-shadow: 0 0 25px rgba(102, 126, 234, 0.5);
 }
 
 .linhatempo {
-    flex: 1;
     padding-left: 50px;
 }
 
